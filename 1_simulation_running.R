@@ -59,7 +59,7 @@ Param.df_baseline_1500s <- data.frame(
   theta_shift = rep(3, subjectnum),
   timevar = rep(0.0001, subjectnum),
   modeltimestep = rep(0.061, subjectnum),
-  # 新增参数
+  # Additional parameters
   gamma_incentive = rep(0, subjectnum),
   gamma_inhibition = rep(0, subjectnum),
   WSLS_boost_factor = rep(0, subjectnum),
